@@ -1,0 +1,104 @@
+1. Title: Boston Housing Data
+
+2. Sources:
+   (a) Origin:  This dataset was taken from the StatLib library which is
+                maintained at Carnegie Mellon University.
+   (b) Creator:  Harrison, D. and Rubinfeld, D.L. 'Hedonic prices and the 
+                 demand for clean air', J. Environ. Economics & Management,
+                 vol.5, 81-102, 1978.
+   (c) Date: July 7, 1993
+
+3. Past Usage:
+   -   Used in Belsley, Kuh & Welsch, 'Regression diagnostics ...', Wiley, 
+       1980.   N.B. Various transformations are used in the table on
+       pages 244-261.
+    -  Quinlan,R. (1993). Combining Instance-Based and Model-Based Learning.
+       In Proceedings on the Tenth International Conference of Machine 
+       Learning, 236-243, University of Massachusetts, Amherst. Morgan
+       Kaufmann.
+
+4. Relevant Information:
+
+   Concerns housing values in suburbs of Boston.
+
+5. Number of Instances: 506
+
+6. Number of Attributes: 13 continuous attributes (including "class"
+                         attribute "MEDV"), 1 binary-valued attribute.
+
+7. Attribute Information:
+
+CRIM
+→ Crime Rate
+The number of crimes per person in the town.
+(High value = more crime)
+
+ZN
+→ Big Lot Zone Percentage
+The % of land zoned for large homes (big yards).
+(High value = more large residential areas)
+
+INDUS
+→ Industrial Land
+The % of town area used for industries that aren’t shops or stores.
+(High value = more factories/offices)
+
+CHAS
+→ Charles River (Yes/No)
+1 = the house is next to the Charles River
+0 = it’s not
+
+NOX
+→ Air Pollution
+Amount of nitrogen oxide in the air (pollution measure).
+(High value = more air pollution)
+
+RM
+→ Rooms per House
+Average number of rooms in each house.
+(High value = larger houses)
+
+AGE
+→ Old Houses
+% of homes built before 1940.
+(High value = older homes in the area)
+
+DIS
+→ Distance to Jobs
+How far the town is from five big work areas in Boston.
+(Low value = closer to jobs)
+
+RAD
+→ Access to Highways
+A score that shows how easy it is to get to major roads.
+(High value = better access to highways)
+
+TAX
+→ Property Tax Rate
+How much property tax is charged per $10,000 of house value.
+(High value = more tax)
+
+PTRATIO
+→ Student-Teacher Ratio
+How many students per teacher in schools in the town.
+(High value = bigger class sizes)
+
+B
+→ Black Population Score
+A formula related to the proportion of Black residents.
+(Higher value = more diversity)
+
+LSTAT
+→ Low-Income Percentage
+The % of people in the town who are low-income.
+(High value = poorer area)
+
+MEDV
+→ Median Home Price
+The middle value of house prices in $1000s.
+(The value we usually try to predict)
+
+8. Missing Attribute Values:  None.
+
+
+
